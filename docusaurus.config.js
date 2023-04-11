@@ -81,7 +81,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Home',
             items: [
               {
                 label: 'Wiki',
@@ -93,15 +93,7 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://test.com',
-              },
-              {
-                label: 'Discord',
-                href: 'https://test.com',
-              },
-              {
-                label: 'Twitter',
+                label: 'Other',
                 href: 'https://test.com',
               },
             ],
@@ -110,12 +102,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://test.com',
+                label: '...',
+                to: '/',
               },
             ],
           },
